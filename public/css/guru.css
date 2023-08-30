@@ -9,3 +9,9 @@
 }
 .dropdown:hover .dropdown-menu {display: block;}
 /* end */
+
+/* footer */
+.footer{
+    display: flex;
+}
+/* end */
