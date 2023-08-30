@@ -1,0 +1,42 @@
+/* cara dropdown otomatis */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown:hover .dropdown-menu {display: block;}
+/* end */
+
+/* footer */
+.footer{
+    background-color: #EBE8E8;
+    display: flex;
+}
+.footer .kiri{
+    margin-left: 30px;
+}
+.footer, .gambar{
+    margin-left: 10px;
+}
+/* end */
+
+/* navbar */
+.navbar{
+    overflow: hidden;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/* end */
+
+/* isi */
+.isi{
+    padding: 16px;
+    margin-top: 50px;
+    height: 1500px;
+}
+/* end */
