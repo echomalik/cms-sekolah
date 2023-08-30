@@ -49,18 +49,37 @@
         </div>
 
         <div class="p-1"><a class="btn" href="">News</a></div>
-        <div class="p-1"><a class="btn" href="">Profile</a></div>
+        <div class="p-1"><a class="btn" href="guru.blade.php">Profile</a></div>
         <div class="p-1"><a class="btn" href="">Home</a></div>
       </div>
     </div>
   </nav>
   {{-- end navbar --}}
 
-  <div class="isi"></div>
+  <div class="isi">
+    <div class="container">
+      <div class="telkom d-flex justify-content-between">
+        <div class="kiri"></div>
+        <div class="tengah"></div>
+        <div class="kanan">
+          <img src="{{ asset('img/smktelkomjkt2.png')}}" alt="">
+        </div>
+      </div>
+
+      <div class="judul">
+        <b>DAFTAR WALI KELAS  <hr> </b>
+        <b>TAHUN PELAJARAN 2023 / 2024 </b> <br>
+        <b> SMK TELKOM SANDHY PUTRA JAKARTA</b>
+      </div>
+
+      <img src="{{ asset('img/daftar_guru.png') }}" alt="Daftar Guru">
+    </div>
+  </div>
+  
 
   {{-- footer --}}
-  <div class="container footer vh-100">
-    <div class="kiri bg-success">
+  <div class="footer">
+    <div class="kiri">
 
       <div class="gambar">
         <img src="{{ asset('img/smktelkomjkt 1.png') }}" alt="SMK Telkom" width="120" height="55">
@@ -75,7 +94,7 @@
       </div>
     </div>
 
-    <div class="kanan bg-primary col-3 p-4 my-auto">
+    <div class="kanan col-2 p-4 my-auto bg-primar">
       <center>Follow us</center>
       <div class="social mx-auto my-auto d-flex justify-content-center h-100">
         <div class="facebook">

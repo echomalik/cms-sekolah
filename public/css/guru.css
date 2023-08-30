@@ -12,6 +12,31 @@
 
 /* footer */
 .footer{
+    background-color: #EBE8E8;
     display: flex;
+}
+.footer .kiri{
+    margin-left: 30px;
+}
+.footer, .gambar{
+    margin-left: 10px;
+}
+/* end */
+
+/* navbar */
+.navbar{
+    overflow: hidden;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/* end */
+
+/* isi */
+.isi{
+    padding: 16px;
+    margin-top: 50px;
+    height: 1500px;
 }
 /* end */
