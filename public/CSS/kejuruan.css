@@ -1,0 +1,7 @@
+.isi {
+    box-sizing: border-box;
+}
+.isi .kotak {
+    float: left;
+    margin-left: 15px;
+}
