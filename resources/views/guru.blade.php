@@ -55,6 +55,8 @@
     </div>
   </nav>
   {{-- end navbar --}}
+  
+  <div class="end1"></div>
 
   <div class="isi">
     <div class="container">
@@ -67,15 +69,29 @@
       </div>
 
       <div class="judul">
-        <b>DAFTAR WALI KELAS  <hr> </b>
+        <b><hr class="garis"> DAFTAR WALI KELAS</b>
         <b>TAHUN PELAJARAN 2023 / 2024 </b> <br>
         <b> SMK TELKOM SANDHY PUTRA JAKARTA</b>
       </div>
 
       <img src="{{ asset('img/daftar_guru.png') }}" alt="Daftar Guru">
     </div>
+
+    <div class="bawah d-flex justify-content-between" style="padding-top:5% ">
+      <div class="kiri"></div>
+      <div class="tengah"></div>
+      <div class="kanan col-4">
+        <p>SMK TELKOM Jakarta</p>
+        <p> Sekolah Berintegritas yang bernaung di bawah 
+            Pendidikan Telkom. 021-5442800 atau WA 08111442600
+            Jl. Daan mogot KM.11 Cengkareng Jakarta Barat
+            Email : smkteljkt@ypt.or.id atau smkteljkt@gmail.com twitter : smktelkomjakarta
+        </p>
+      </div>
+    </div>
   </div>
-  
+
+  <div class="end"></div>
 
   {{-- footer --}}
   <div class="footer">
