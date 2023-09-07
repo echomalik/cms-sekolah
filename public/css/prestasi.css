@@ -1,0 +1,62 @@
+/* cara dropdown otomatis */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    position: fixed;
+}
+/* end */
+
+/* navbar */
+.navbar{
+    overflow: hidden;
+    background: #FFFFFF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/* end */
+
+/* footer */
+.footer{
+    background-color: #EBE8E8;
+    display: flex;
+}
+.footer .kiri{
+    margin-left: 30px;
+}
+/* end */
+
+/* judul */
+.judul{
+    padding-bottom: 20px;
+}
+.kata{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.garis{
+    background-color: #6F6262;
+    width: 70%;
+    height: 10px;
+}
+.kata p{
+    font-size: 25px;
+}
+/* end */
+.promosi{
+    margin-left: 900px;
+}
+
+
+
+.end{
+    padding-bottom: 140px;
+}

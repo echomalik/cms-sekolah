@@ -9,6 +9,6 @@ class SchoolController extends Controller
 {
     public function index(): View
     {
-        return view('guru');
+        return view('prestasi');
     }
 }
