@@ -1,0 +1,48 @@
+.maincontainer{
+    display: flex;
+    /* align-items: center; */
+    align-content: space-between;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-left: 40px;
+}
+
+.thecard{
+    transform-style: preserve-3d; /*ini penting intinya penting*/
+    transition: all 0.8s ease; /*ini buat ngatur kecepatan berputar dari kartu*/
+    width: 300px;
+    height: 370px;
+    border-radius: 10px;
+}
+
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+
+.thefront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: rgb(253, 253, 253);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.theback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: #fafafa;
+    border-radius: 10px;
+    overflow: hidden;
+} 
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }

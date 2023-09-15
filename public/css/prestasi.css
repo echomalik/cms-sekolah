@@ -16,7 +16,7 @@
 /* navbar */
 .navbar{
     overflow: hidden;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     position: fixed;
     top: 0;
     width: 100%;
@@ -58,5 +58,5 @@
 
 
 .end{
-    padding-bottom: 140px;
+    padding-bottom: 40px;
 }

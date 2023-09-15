@@ -17,7 +17,7 @@
   <nav class="navbar shadow p-2 mb-6">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="{{ asset('img/smktelkomjkt 1.png') }}" alt="SMK Telkom" width="120" height="55">
+        <img src="./img/smktelkomjkt 1.png" alt="SMK Telkom" width="120" height="55">
       </a>
       <div class="d-flex flex-row-reverse">
         <div class="p-1"><a class="btn" href="">Contact</a></div>
@@ -31,7 +31,7 @@
         
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Struktur Osis dan MPK</a></li>
-            <li><a class="dropdown-item" href="#">Prestasi Siswa</a></li>
+            <li><a class="dropdown-item" href="/prestasi">Prestasi Siswa</a></li>
             <li><a class="dropdown-item" href="#"> Ekstrakulikuler </a></li>
             <li><a class="dropdown-item" href="#"> Daftra Alumni </a></li>
           </ul>
