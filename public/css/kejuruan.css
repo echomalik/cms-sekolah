@@ -1,0 +1,16 @@
+.jurusan p {
+    font-size: 50px;
+}
+
+.isi {
+    box-sizing: border-box;
+}
+.isi .kotak {
+    float: left;
+    margin-left: 15px;
+}
+.end{
+    content: "";
+    display: table;
+    clear: both;
+}

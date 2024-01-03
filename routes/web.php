@@ -19,3 +19,10 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', [SchoolController::class, 'index']);
+Route::get('/daftar-wali-kelas', [SchoolController::class, 'guru']);
+Route::get('/berita', [SchoolController::class, 'berita']);
+Route::get('/prestasi-siswa', [SchoolController::class, 'prestasi']);
+Route::get('/homepage', [SchoolController::class, 'homepage']);
+Route::get('/osis-mpk', [SchoolController::class, 'osis_mpk']);
+Route::get('/kejuruan', [SchoolController::class, 'kejuruan']);
+Route::get('/ekstrakulikuler', [SchoolController::class, 'ekstrakulikuler']);

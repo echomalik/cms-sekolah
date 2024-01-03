@@ -1,0 +1,199 @@
+.kotak{
+    display: flex;
+    margin-bottom: 40px;
+}
+.line{
+    width: 1030px;
+    height: 5px;
+    background-color: rgb(0, 0, 0, 0.60);
+
+    margin-bottom: 40px;
+}
+
+/* .maincontainer{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-left: 40px;
+} */
+
+/* .thecard{
+    transform-style: preserve-3d; 
+    transition: all 0.8s ease; 
+    width: 300px;
+    height: 370px;
+    border-radius: 10px;
+    z-index: 1;
+} */
+
+/* .thecard:hover{
+    transform: rotateY(180deg);
+} */
+
+/* .thefront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: rgb(253, 253, 253);
+    border-radius: 10px;
+    overflow: hidden;
+} */
+/* .theback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: #fafafa;
+    border-radius: 10px;
+    overflow: hidden;
+}  */
+
+/* .social{
+    display: grid;
+    place-items: center;
+    gap: 10px;
+} */
+
+/* .promosi{
+    margin-left: 900px;
+} */
+
+/* .thefront img{
+
+} */
+
+/* .card-images{
+    width: 300px !important;
+    height: 320px !important;
+    object-fit: contain !important;
+    transform: translate(-50%, -50%) !important;
+    scale: 1 !important;
+    background-size: cover !important;
+} */
+
+/* .end{
+    padding-bottom: 40px;
+} */
+
+/* ==================================================================== */
+.flip-container {
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -o-perspective: 1000;
+    perspective: 1000;
+  
+      border: 1px solid #ccc;
+  }
+  
+      .flip-container:hover .flipper,  
+    .flip-container.hover .flipper {
+          -webkit-transform: rotateY(180deg);
+          -moz-transform: rotateY(180deg);
+      -o-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+      }
+  
+  .flip-container, .front, .back {
+      width: 320px;
+      height: 427px;
+  }
+  
+  .flipper {
+      -webkit-transition: 0.6s;
+      -webkit-transform-style: preserve-3d;
+  
+      -moz-transition: 0.6s;
+      -moz-transform-style: preserve-3d;
+    
+    -o-transition: 0.6s;
+      -o-transform-style: preserve-3d;
+  
+      transition: 0.6s;
+      transform-style: preserve-3d;
+  
+      position: relative;
+  }
+  
+  .front, .back {
+      -webkit-backface-visibility: hidden;
+      -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+      backface-visibility: hidden;
+  
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+  
+  .front {
+      /* background: url(http://davidwalsh.name/demo/dwflip.jpg) 0 0 no-repeat; */
+      width: 320px !important;
+      height: 427px !important;
+      z-index: 2;
+  }
+  
+  .back {
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+  
+      background: #f8f8f8;
+  }
+  
+  .front .name {
+      font-size: 2em;
+      display: inline-block;
+      background: rgba(33, 33, 33, 0.9);
+      color: #f8f8f8;
+      font-family: Courier;
+      padding: 5px 10px;
+      border-radius: 5px;
+      bottom: 60px;
+      left: 25%;
+      position: absolute;
+      text-shadow: 0.1em 0.1em 0.05em #333;
+  
+      -webkit-transform: rotate(-20deg);
+      -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+      transform: rotate(-20deg);
+  }
+  
+  .back-logo {
+      position: absolute;
+      top: 40px;
+      left: 90px;
+      width: 160px;
+      height: 117px;
+      /* background: url(http://davidwalsh.name/demo/logo.png) 0 0 no-repeat; */
+  }
+  
+  .back-title {
+      font-weight: bold;
+      color: #00304a;
+      position: absolute;
+      top: 180px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      text-shadow: 0.1em 0.1em 0.05em #acd7e5;
+      font-family: Courier;
+      font-size: 2em;
+  }
+  
+  .back p {
+      position: absolute;
+      bottom: 40px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      padding: 0 20px;
+    font-family: arial;
+    line-height: 2em;
+  }

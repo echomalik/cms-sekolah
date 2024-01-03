@@ -16,7 +16,7 @@
   {{-- navbar --}}
   <nav class="navbar shadow p-2 mb-6">
     <div class="container">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="homepage">
         <img src="./img/smktelkomjkt 1.png" alt="SMK Telkom" width="120" height="55">
       </a>
       <div class="d-flex flex-row-reverse">
@@ -30,9 +30,9 @@
           </a>
         
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Struktur Osis dan MPK</a></li>
-            <li><a class="dropdown-item" href="/prestasi">Prestasi Siswa</a></li>
-            <li><a class="dropdown-item" href="#"> Ekstrakulikuler </a></li>
+            <li><a class="dropdown-item" href="osis-mpk">Struktur Osis dan MPK</a></li>
+            <li><a class="dropdown-item" href="/prestasi-siswa">Prestasi Siswa</a></li>
+            <li><a class="dropdown-item" href="ekstrakulikuler"> Ekstrakulikuler </a></li>
             <li><a class="dropdown-item" href="#"> Daftra Alumni </a></li>
           </ul>
         </div>
@@ -43,14 +43,14 @@
           </a>
         
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Daftar Wali Kelas</a></li>
-            <li><a class="dropdown-item" href="#">Kejuruan</a></li>
+            <li><a class="dropdown-item" href="daftar-wali-kelas">Daftar Wali Kelas</a></li>
+            <li><a class="dropdown-item" href="kejuruan">Kejuruan</a></li>
           </ul>
         </div>
 
-        <div class="p-1"><a class="btn" href="">News</a></div>
-        <div class="p-1"><a class="btn" href="guru.blade.php">Profile</a></div>
-        <div class="p-1"><a class="btn" href="">Home</a></div>
+        <div class="p-1"><a class="btn" href="berita">News</a></div>
+        <div class="p-1"><a class="btn" href="">Profile</a></div>
+        <div class="p-1"><a class="btn" href="homepage">Home</a></div>
       </div>
     </div>
   </nav>

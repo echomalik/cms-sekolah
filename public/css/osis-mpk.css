@@ -1,0 +1,36 @@
+/*isi*/
+.h-3-section-title-sec,
+.h-3-section-title-sec * {
+  box-sizing: border-box;
+}
+.h-3-section-title-sec {
+  color: var(--text-color, #252b42);
+  text-align: center;
+  font: var(--h-3, 700 24px/32px "Montserrat", sans-serif);
+  position: relative;
+}
+.h-2-section-title-sec,
+.h-2-section-title-sec * {
+  box-sizing: border-box;
+}
+.h-2-section-title-sec {
+  color: var(--text-color, #252b42);
+  text-align: left;
+  font: var(--h-3, 700 24px/32px "Montserrat", sans-serif);
+  position: relative;
+}
+.mpk{
+    box-shadow: 7px 7px 7px #3333;
+}
+.osis{
+    box-shadow: 7px 7px 7px #3333;
+}
+.garis{
+    height: 5px;
+    width: 80%;
+    background-color: black;
+    float: right;
+}
+.promosi{
+    margin-left: 800px;
+}
