@@ -50,6 +50,7 @@
     width: 65%;
     background-color: black;
     float: right;
+    z-index: 2;
 }
 /* end */
 
